@@ -1,4 +1,4 @@
-package designpattern.observerpattern;
+package designpattern.observerpattern.publishsubscribepattern;
 
 import java.util.Observable;
 

@@ -1,4 +1,4 @@
-package designpattern.observerpattern;
+package designpattern.observerpattern.publishsubscribepattern;
 
 //客户端调用
 public class ObserverClient {

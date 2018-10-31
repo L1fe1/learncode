@@ -1,4 +1,4 @@
-package designpattern.observerpattern;
+package designpattern.observerpattern.eventdrivenpattern;
 
 import java.util.HashMap;
 import java.util.Map;
