@@ -1,0 +1,4 @@
+• 如果依赖readResolve进行实例控制，带有对象引用类型的所有实例域都必须声明为transient。
+• readResolve的可访问性（accessibility）很重要。
+• 总之，你应该尽可能地使用枚举类型来实施实例控制的约束条件。
+  如果做不到，同时又需要一个既可序列化又是实例受控（instance-controlled）的类，就必须提供一个readResolver方法，并确保该类的所有实例域都为基本类型，或者是transient的。

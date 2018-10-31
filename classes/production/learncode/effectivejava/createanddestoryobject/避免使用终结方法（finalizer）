@@ -1,0 +1,2 @@
+不要被System.gc和System.runFinalization这两个方法所诱惑，他们确实增加了终结方法被执行的机会，但是他们不保证终结方法一定被执行。
+唯一声称保证终结方法被执行的方法是System.runFinalizersOnExit，以及他臭名昭著的孪生兄弟Runtime.runFinalizersOnExit。这两个方法都有致命的缺陷，都被废弃了。

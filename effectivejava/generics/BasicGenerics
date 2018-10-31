@@ -1,0 +1,11 @@
+引入泛型之后的类型系统增加了两个维度：一个是类型参数自身的继承体系结构，另外一个是泛型类或接口自身的继承体系结构。
+第一个指的是对于List<String>和List<Object>这样的情况，类型参数String是继承自Object的。
+而第二种指的是List接口继承自Collection接口。对于这个类型系统，有如下的一些规则：
+1.相同类型参数的泛型类的关系取决于泛型类自身的继承体系结构。即List<String>是Collection<String> 的子类型，List<String>可以替换Collection<String>。
+这种情况也适用于带有上下界的类型声明。
+2.当泛型类的类型声明中使用了通配符的时候，其子类型可以在两个维度上分别展开。
+如对Collection<? extends Number>来说，其子类型可以在Collection这个维度上展开，即List<? extends Number>和Set<? extends Number>等；
+也可以在Number这个层次上展开，即Collection<Double>和 Collection<Integer>等。
+如此循环下去，ArrayList<Long>和 HashSet<Double>等也都算是Collection<? extends Number>的子类型。
+3.如果泛型类中包含多个类型参数，则对于每个类型参数分别应用上面的规则。
+

@@ -1,0 +1,8 @@
+• 既然正确地使用wait和notify比较困难，就应该用更高级的并发工具来代替
+• java.util.concurrent中更高级的工具分成三类
+  。Executor Framework
+  。并发集合（Concurrent Collection）
+    ▪ 并发集合中不可能排除并发活动；将他锁定没有什么作用，只会使程序速度变慢
+  。同步器（Synchronizer）
+• 对于间歇式的定时，始终应该优先使用System.nanoTime而不是System.currentTimeMills，System.nanoTime更加准确也更加精确，他不受系统的实时时钟的调整所影响
+• 一般情况下，你应该有限使用notifyAll，而不是notify。如果使用notify，请一定小心，以确保程序的活性

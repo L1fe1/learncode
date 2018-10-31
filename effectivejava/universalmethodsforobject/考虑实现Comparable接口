@@ -1,0 +1,6 @@
+在下面的说明中，sgn(expression)符号表示数学中的signum函数，即根据expression是负数、零、或正数，分别返回-1、0、1。
+• 对称性：实现者必须保证对所有的x和y都有sgn(x.compareTo(y)) == -sgn(y.compareTo(x))。这也暗示当且仅当y.compareTo(x)抛出异常时，x.compareTo(y)才抛出异常。
+• 传递性：实现者必须保证比较关系是可传递的，如果x.compareTo(y) > 0且y.compareTo(z) > 0，则x.compareTo(z) > 0。
+• 实现者必须保证x.compareTo(y)==0暗示着所有的z都有(x.compareTo(z)) == (y.compareTo(z))。
+• 虽不强制要求，但强烈建议(x.compareTo(y) == 0) == (x.equals(y))。一般来说，任何实现了Comparable的类如果违反了这个约定，都应该明确说明。
+  推荐这么说：“注意：本类拥有自然顺序，但与equals不一致”。

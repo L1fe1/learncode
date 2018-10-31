@@ -1,0 +1,5 @@
+• 许多编译器警告：非受检强制转化警告（unchecked cast warnings）、非受检方法调用警告、非受检普通数组创建警告，以及非受检转换警告（unchecked conversion warnings）。
+• 要尽可能地消除每一个非受检警告。
+• 如果无法消除警告，同时可以证明引起警告的代码是类型安全的，（只有这种情况下才）可以用一个@SuppressWarnings("unchecked")注释来禁止这条警告。
+• 应该始终在尽可能小的范围中使用SuppressWarnings注释。
+• 每当使用SuppressWarnings注释时，都要添加一条注释，说明为什么这么做是安全的。

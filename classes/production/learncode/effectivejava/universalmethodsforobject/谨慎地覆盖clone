@@ -1,0 +1,9 @@
+• clone方法的通用约定是非常弱的。
+• x.clone()!=x。
+• x.clone().getClass()==x.getClass()。
+• x.clone().equals(x)。
+• 这些都不是绝对的要求。
+• Clone方法就是另一个构造器，你必须保证它不会伤害到原始的对象，并确保正确地创建被克隆对象中的约束条件。
+• clone架构与应用可变对象的final域的正常用法是不兼容的。
+• 深度clone，典型例子HashTable。
+• 线程安全的类实现Cloneable接口，clone方法必须实现好同步:HashTable。

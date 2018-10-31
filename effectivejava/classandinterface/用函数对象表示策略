@@ -1,0 +1,7 @@
+具体的策略类往往使用匿名内部类
+Arrays.sort(stringArray,new Comparator<String>() {
+    @Override
+    public int compare(String o1, String o2) {
+        return 0;
+    }
+});
