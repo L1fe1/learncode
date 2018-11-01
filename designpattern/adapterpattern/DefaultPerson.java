@@ -3,7 +3,7 @@ package designpattern.adapterpattern;
 public class DefaultPerson implements Person{
     @Override
     public void speak() {
-        
+
     }
 
     @Override
