@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa113d89-0e24-47b7-a4f9-577a1d3cd58d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/Appearance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/Doppelganger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/InvisibleLoser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/InvisibleTRH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/ReadMindLoser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/ReadMindTRH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/Skills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/Soul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/Use.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/VolantLoser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/bridgepattern/VolantTRH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/Doppelganger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/DoppelgangerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/FatBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/Soul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/ThinBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,26 +31,26 @@
         <counts>
           <entry key="Singleton" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="158" />
+          <entry key="java" value="164" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="158" />
+          <entry key="JAVA" value="164" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1071" />
+          <entry key="java" value="1166" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1071" />
+          <entry key="JAVA" value="1166" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -68,81 +63,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/bridgepattern/VolantLoser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/bridgepattern/ReadMindLoser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/bridgepattern/InvisibleTRH.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/bridgepattern/VolantTRH.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/bridgepattern/ReadMindTRH.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/designpattern/bridgepattern/Use.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
@@ -152,17 +72,110 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/bridgepattern/Skills.java">
+        <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/Doppelganger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="38">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1278#1279#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1354#1355#0" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1544#1545#0" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1696#1697#0" expanded="true" />
+                <element signature="e#1742#1743#0" expanded="true" />
+                <element signature="e#1780#1781#0" expanded="true" />
+                <element signature="e#1816#1817#0" expanded="true" />
+                <element signature="e#1848#1849#0" expanded="true" />
+                <element signature="e#1898#1899#0" expanded="true" />
+                <element signature="e#1940#1941#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2006#2007#0" expanded="true" />
+                <element signature="e#2054#2055#0" expanded="true" />
+                <element signature="e#2094#2095#0" expanded="true" />
+                <element signature="e#2126#2127#0" expanded="true" />
+                <element signature="e#2153#2154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/Soul.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/Creator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/DoppelgangerBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/ThinBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/FatBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+              <folding>
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -246,12 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designpattern/strategypattern/OnceValidRegion.java" />
-        <option value="$PROJECT_DIR$/designpattern/strategypattern/CalPriceProxy.java" />
-        <option value="$PROJECT_DIR$/designpattern/strategypattern/Common.java" />
-        <option value="$PROJECT_DIR$/designpattern/strategypattern/Vip.java" />
-        <option value="$PROJECT_DIR$/designpattern/strategypattern/SuperVip.java" />
-        <option value="$PROJECT_DIR$/designpattern/strategypattern/GoldVip.java" />
         <option value="$PROJECT_DIR$/designpattern/strategypattern/OneTDTwoH.java" />
         <option value="$PROJECT_DIR$/designpattern/strategypattern/TwotDFourH.java" />
         <option value="$PROJECT_DIR$/designpattern/strategypattern/CashierClient.java" />
@@ -297,6 +304,12 @@
         <option value="$PROJECT_DIR$/designpattern/bridgepattern/Soul.java" />
         <option value="$PROJECT_DIR$/designpattern/bridgepattern/Doppelganger.java" />
         <option value="$PROJECT_DIR$/designpattern/bridgepattern/Use.java" />
+        <option value="$PROJECT_DIR$/designpattern/builderpattern/Doppelganger.java" />
+        <option value="$PROJECT_DIR$/designpattern/builderpattern/DoppelgangerBuilder.java" />
+        <option value="$PROJECT_DIR$/designpattern/builderpattern/ThinBuilder.java" />
+        <option value="$PROJECT_DIR$/designpattern/builderpattern/FatBuilder.java" />
+        <option value="$PROJECT_DIR$/designpattern/builderpattern/Soul.java" />
+        <option value="$PROJECT_DIR$/designpattern/builderpattern/Creator.java" />
       </list>
     </option>
   </component>
@@ -337,7 +350,7 @@
               <item name="learncode" type="b2602c69:ProjectViewProjectNode" />
               <item name="learncode" type="462c0819:PsiDirectoryNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="bridgepattern" type="462c0819:PsiDirectoryNode" />
+              <item name="builderpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learncode" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +370,7 @@
     <property name="SearchEverywhereHistoryKey" value="ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;ClassLoader &#9;PSI&#9;JAVA://com.sun.org.apache.bcel.internal.util.ClassLoader&#10;newFix&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;EventObject&#9;PSI&#9;JAVA://java.util.EventObject&#10;EventListener &#9;PSI&#9;JAVA://java.util.EventListener&#10;observer&#9;PSI&#9;JAVA://java.util.Observer&#10;obse&#9;PSI&#9;JAVA://java.util.Observable&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/java/util/List.class&#10;Driv&#9;PSI&#9;JAVA://java.sql.Driver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541061513663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541067397461" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -387,7 +400,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Use">
+  <component name="RunManager" selected="Application.Creator">
     <configuration name="ContinentalPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.mediatorpattern.ContinentalPattern" />
       <module name="learncode" />
@@ -401,12 +414,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.decoratorpattern.IOTest" />
+    <configuration name="Creator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.builderpattern.Creator" />
       <module name="learncode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.decoratorpattern.*" />
+          <option name="PATTERN" value="designpattern.builderpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,12 +427,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPageBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.templatemethodpattern.MyPageBuilder" />
+    <configuration name="IOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.decoratorpattern.IOTest" />
       <module name="learncode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.templatemethodpattern.*" />
+          <option name="PATTERN" value="designpattern.decoratorpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -454,19 +467,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyPageBuilder" />
       <item itemvalue="Application.IOTest" />
       <item itemvalue="Application.Work" />
       <item itemvalue="Application.ContinentalPattern" />
       <item itemvalue="Application.Use" />
+      <item itemvalue="Application.Creator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Creator" />
         <item itemvalue="Application.Use" />
         <item itemvalue="Application.ContinentalPattern" />
         <item itemvalue="Application.Work" />
         <item itemvalue="Application.IOTest" />
-        <item itemvalue="Application.MyPageBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +497,7 @@
       <workItem from="1540879915395" duration="260000" />
       <workItem from="1540880183610" duration="11970000" />
       <workItem from="1540948258001" duration="11786000" />
-      <workItem from="1541037830691" duration="12520000" />
+      <workItem from="1541037830691" duration="15048000" />
     </task>
     <task id="LOCAL-00001" summary="observerpattern">
       <created>1540972978232</created>
@@ -497,7 +510,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37059000" />
+    <option name="totallyTimeSpent" value="39587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -544,65 +557,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="observerpattern" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designpattern/adapterpattern/HashMapObserverAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/adapterpattern/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/adapterpattern/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="2124" column="18" selection-start-line="2124" selection-start-column="18" selection-end-line="2124" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="172" column="32" selection-start-line="172" selection-start-column="32" selection-end-line="172" selection-end-column="32" />
-          <folding>
-            <element signature="e#5937#5938#0" expanded="true" />
-            <element signature="e#5967#5968#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/adapterpattern/ObservableUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
@@ -1136,6 +1090,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/Doppelganger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="e#1780#1781#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2126#2127#0" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/DoppelgangerBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/ThinBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/FatBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/Soul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/builderpattern/Creator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
