@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa113d89-0e24-47b7-a4f9-577a1d3cd58d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/designpattern/commandpattern/Bug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/commandpattern/Demand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/commandpattern/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/commandpattern/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/commandpattern/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/commandpattern/Salesman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/commandpattern/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/commandpattern/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/mediatorpattern/CommandSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/mediatorpattern/ContinentalPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/mediatorpattern/IPatternAlliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/mediatorpattern/MediatorSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/mediatorpattern/PatternAlliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/mediatorpattern/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/mediatorpattern/SingletonSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/mediatorpattern/StrategySchool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,26 +33,26 @@
         <counts>
           <entry key="Singleton" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="135" />
+          <entry key="java" value="143" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="135" />
+          <entry key="JAVA" value="143" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="925" />
+          <entry key="java" value="985" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="925" />
+          <entry key="JAVA" value="985" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -64,34 +64,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/decoratorpattern/IOTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="63" column="66" lean-forward="true" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/commandpattern/Programmer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-              <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designpattern/commandpattern/Salesman.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designpattern/commandpattern/Work.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -119,78 +91,112 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/commandpattern/Task.java">
+        <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/School.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/commandpattern/Demand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="551">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/commandpattern/Bug.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/commandpattern/Problem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
                 <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/commandpattern/ProductManager.java">
+        <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/MediatorSchool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="114">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/CommandSchool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/SingletonSchool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/StrategySchool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/ContinentalPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/IPatternAlliance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/PatternAlliance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -216,14 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designpattern/observerpattern/WriterManager.java" />
-        <option value="$PROJECT_DIR$/designpattern/observerpattern/ObserverClient.java" />
-        <option value="$PROJECT_DIR$/designpattern/observerpattern/WriterEvent.java" />
-        <option value="$PROJECT_DIR$/designpattern/observerpattern/WriterListener.java" />
-        <option value="$PROJECT_DIR$/designpattern/observerpattern/publishsubscribepattern/ObserverClient.java" />
-        <option value="$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/Writer.java" />
-        <option value="$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/Reader.java" />
-        <option value="$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/WriterEvent.java" />
         <option value="$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/WriterManager.java" />
         <option value="$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/ObserverClient.java" />
         <option value="$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/ButtonEvent.java" />
@@ -267,6 +265,14 @@
         <option value="$PROJECT_DIR$/designpattern/commandpattern/ProductManager.java" />
         <option value="$PROJECT_DIR$/designpattern/commandpattern/Salesman.java" />
         <option value="$PROJECT_DIR$/designpattern/commandpattern/Work.java" />
+        <option value="$PROJECT_DIR$/designpattern/mediatorpattern/IPatternAlliance.java" />
+        <option value="$PROJECT_DIR$/designpattern/mediatorpattern/PatternAlliance.java" />
+        <option value="$PROJECT_DIR$/designpattern/mediatorpattern/School.java" />
+        <option value="$PROJECT_DIR$/designpattern/mediatorpattern/CommandSchool.java" />
+        <option value="$PROJECT_DIR$/designpattern/mediatorpattern/MediatorSchool.java" />
+        <option value="$PROJECT_DIR$/designpattern/mediatorpattern/SingletonSchool.java" />
+        <option value="$PROJECT_DIR$/designpattern/mediatorpattern/StrategySchool.java" />
+        <option value="$PROJECT_DIR$/designpattern/mediatorpattern/ContinentalPattern.java" />
       </list>
     </option>
   </component>
@@ -307,7 +313,7 @@
               <item name="learncode" type="b2602c69:ProjectViewProjectNode" />
               <item name="learncode" type="462c0819:PsiDirectoryNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="commandpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="mediatorpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learncode" type="b2602c69:ProjectViewProjectNode" />
@@ -327,7 +333,7 @@
     <property name="SearchEverywhereHistoryKey" value="ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;ClassLoader &#9;PSI&#9;JAVA://com.sun.org.apache.bcel.internal.util.ClassLoader&#10;newFix&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;EventObject&#9;PSI&#9;JAVA://java.util.EventObject&#10;EventListener &#9;PSI&#9;JAVA://java.util.EventListener&#10;observer&#9;PSI&#9;JAVA://java.util.Observer&#10;obse&#9;PSI&#9;JAVA://java.util.Observable&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/java/util/List.class&#10;Driv&#9;PSI&#9;JAVA://java.sql.Driver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541057145282" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541060369012" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -357,13 +363,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Work">
-    <configuration name="CashierClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.strategypattern.CashierClient" />
+  <component name="RunManager" selected="Application.ContinentalPattern">
+    <configuration name="ContinentalPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.mediatorpattern.ContinentalPattern" />
       <module name="learncode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.strategypattern.*" />
+          <option name="PATTERN" value="designpattern.mediatorpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,19 +430,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CashierClient" />
       <item itemvalue="Application.CustomThread" />
       <item itemvalue="Application.MyPageBuilder" />
       <item itemvalue="Application.IOTest" />
       <item itemvalue="Application.Work" />
+      <item itemvalue="Application.ContinentalPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContinentalPattern" />
         <item itemvalue="Application.Work" />
         <item itemvalue="Application.IOTest" />
         <item itemvalue="Application.MyPageBuilder" />
         <item itemvalue="Application.CustomThread" />
-        <item itemvalue="Application.CashierClient" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +460,7 @@
       <workItem from="1540879915395" duration="260000" />
       <workItem from="1540880183610" duration="11970000" />
       <workItem from="1540948258001" duration="11786000" />
-      <workItem from="1541037830691" duration="8966000" />
+      <workItem from="1541037830691" duration="11073000" />
     </task>
     <task id="LOCAL-00001" summary="observerpattern">
       <created>1540972978232</created>
@@ -467,11 +473,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33505000" />
+    <option name="totallyTimeSpent" value="35612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -514,93 +519,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="observerpattern" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/ButtonEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/ClickListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/DblClickListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/MouseMoveListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/ButtonClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/observerpattern/eventdrivenpattern/ButtonJsp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/strategypattern/CalPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/strategypattern/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1017,6 +935,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/IPatternAlliance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/PatternAlliance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/School.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/CommandSchool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/MediatorSchool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/SingletonSchool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/StrategySchool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/mediatorpattern/ContinentalPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
