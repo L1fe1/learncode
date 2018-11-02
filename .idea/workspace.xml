@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa113d89-0e24-47b7-a4f9-577a1d3cd58d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/Doppelganger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/DoppelgangerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/FatBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/Soul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/builderpattern/ThinBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aa113d89-0e24-47b7-a4f9-577a1d3cd58d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +12,7 @@
     <session id="1056597550">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
@@ -370,7 +362,7 @@
     <property name="SearchEverywhereHistoryKey" value="ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;ClassLoader &#9;PSI&#9;JAVA://com.sun.org.apache.bcel.internal.util.ClassLoader&#10;newFix&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;EventObject&#9;PSI&#9;JAVA://java.util.EventObject&#10;EventListener &#9;PSI&#9;JAVA://java.util.EventListener&#10;observer&#9;PSI&#9;JAVA://java.util.Observer&#10;obse&#9;PSI&#9;JAVA://java.util.Observable&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/java/util/List.class&#10;Driv&#9;PSI&#9;JAVA://java.sql.Driver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541067397461" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541137668009" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -400,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Creator">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ContinentalPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.mediatorpattern.ContinentalPattern" />
       <module name="learncode" />
@@ -427,12 +419,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.decoratorpattern.IOTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="learncode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.decoratorpattern.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -467,19 +459,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IOTest" />
       <item itemvalue="Application.Work" />
       <item itemvalue="Application.ContinentalPattern" />
       <item itemvalue="Application.Use" />
       <item itemvalue="Application.Creator" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Creator" />
         <item itemvalue="Application.Use" />
         <item itemvalue="Application.ContinentalPattern" />
         <item itemvalue="Application.Work" />
-        <item itemvalue="Application.IOTest" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +489,7 @@
       <workItem from="1540879915395" duration="260000" />
       <workItem from="1540880183610" duration="11970000" />
       <workItem from="1540948258001" duration="11786000" />
-      <workItem from="1541037830691" duration="15048000" />
+      <workItem from="1541037830691" duration="15219000" />
     </task>
     <task id="LOCAL-00001" summary="observerpattern">
       <created>1540972978232</created>
@@ -510,7 +502,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39587000" />
+    <option name="totallyTimeSpent" value="39758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -525,7 +517,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
