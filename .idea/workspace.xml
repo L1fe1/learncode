@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa113d89-0e24-47b7-a4f9-577a1d3cd58d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/production/learncode/designpattern/memento/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/production/learncode/designpattern/memento/Memory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/production/learncode/designpattern/memento/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/production/learncode/designpattern/memento/Soul.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/mementopattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/mementopattern/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/mementopattern/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/mementopattern/Soul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serialize/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serialize/SerializableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/learncode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/learncode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/learncode/designpattern/memento/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/learncode/designpattern/memento/Memory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/learncode/designpattern/memento/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/learncode/designpattern/memento/Soul.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,26 +31,26 @@
         <counts>
           <entry key="Singleton" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="169" />
-          <entry key="txt" value="1" />
+          <entry key="java" value="171" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="169" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="171" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1220" />
+          <entry key="java" value="1231" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1220" />
+          <entry key="JAVA" value="1231" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -115,11 +112,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designpattern/mementopattern/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serialize/Box.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding>
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serialize/SerializableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -160,8 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designpattern/adapterpattern/ObservableUser.java" />
-        <option value="$PROJECT_DIR$/designpattern/adapterpattern/BaseObservableEntity.java" />
         <option value="$PROJECT_DIR$/designpattern/adapterpattern/Person.java" />
         <option value="$PROJECT_DIR$/designpattern/adapterpattern/DefaultPerson.java" />
         <option value="$PROJECT_DIR$/concurrent/CustomThread.java" />
@@ -211,6 +234,8 @@
         <option value="$PROJECT_DIR$/designpattern/memento/Soul.java" />
         <option value="$PROJECT_DIR$/designpattern/memento/Client.java" />
         <option value="$PROJECT_DIR$/designpattern/mementopattern/Client.java" />
+        <option value="$PROJECT_DIR$/serialize/Box.java" />
+        <option value="$PROJECT_DIR$/serialize/SerializableTest.java" />
       </list>
     </option>
   </component>
@@ -243,11 +268,6 @@
               <item name="learncode" type="b2602c69:ProjectViewProjectNode" />
               <item name="learncode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="learncode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learncode" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -261,7 +281,7 @@
     <property name="SearchEverywhereHistoryKey" value="ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;ClassLoader &#9;PSI&#9;JAVA://com.sun.org.apache.bcel.internal.util.ClassLoader&#10;newFix&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPoolExecutor&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;EventObject&#9;PSI&#9;JAVA://java.util.EventObject&#10;EventListener &#9;PSI&#9;JAVA://java.util.EventListener&#10;observer&#9;PSI&#9;JAVA://java.util.Observer&#10;obse&#9;PSI&#9;JAVA://java.util.Observable&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/java/util/List.class&#10;Driv&#9;PSI&#9;JAVA://java.sql.Driver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543373007149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543374393226" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -291,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.SerializableTest">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.mementopattern.Client" />
       <module name="learncode" />
@@ -305,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinentalPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.mediatorpattern.ContinentalPattern" />
+    <configuration name="Creator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.builderpattern.Creator" />
       <module name="learncode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.mediatorpattern.*" />
+          <option name="PATTERN" value="designpattern.builderpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +338,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Creator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.builderpattern.Creator" />
+    <configuration name="SerializableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialize.SerializableTest" />
       <module name="learncode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.builderpattern.*" />
+          <option name="PATTERN" value="serialize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,19 +378,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ContinentalPattern" />
       <item itemvalue="Application.Use" />
       <item itemvalue="Application.Creator" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.SerializableTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializableTest" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Creator" />
         <item itemvalue="Application.Use" />
-        <item itemvalue="Application.ContinentalPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +410,7 @@
       <workItem from="1540948258001" duration="11786000" />
       <workItem from="1541037830691" duration="15219000" />
       <workItem from="1541137518352" duration="1605000" />
-      <workItem from="1543371693856" duration="1309000" />
+      <workItem from="1543371693856" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="observerpattern">
       <created>1540972978232</created>
@@ -403,7 +423,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42672000" />
+    <option name="totallyTimeSpent" value="43542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -449,27 +469,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="observerpattern" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/concurrent/CustomThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/adapterpattern/DefaultPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/templatemethodpattern/PageBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/templatemethodpattern/MyPageBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -851,10 +850,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/mementopattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serialize/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serialize/SerializableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
