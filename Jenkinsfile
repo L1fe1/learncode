@@ -8,4 +8,8 @@ pipeline {
     }
 
   }
+  environment {
+    BUILD_ID = '3'
+    JENKINS_URL = 'www.test.com'
+  }
 }
